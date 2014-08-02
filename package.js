@@ -14,6 +14,7 @@ Package.on_use(function (api, where) {
     'DATA',
     'ODATA',
     'LDATA',
+    "ses",
     'phone_format',
     'email_format',
     'subscription',
