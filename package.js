@@ -1,6 +1,7 @@
 Package.describe({
   summary: "Provides Collection Name, Schema, and Schema Keys",
-  version: "0.0.1"
+  version: "0.0.1",
+  name: "bads:core-lib"
 });
 
 Package.on_use(function (api, where) {
@@ -24,7 +25,7 @@ Package.on_use(function (api, where) {
 });
 
 Package.on_test(function (api) {
-  api.use("../packages/bads:core-lib");
+  api.use("bads:core-lib");
 
   api.add_files('core-lib_tests.js', ['client', 'server']);
 });
