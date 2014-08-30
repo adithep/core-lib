@@ -12,6 +12,7 @@ Package.on_use(function (api, where) {
   ]);
   api.add_files(['namespace.js'], ['client', 'server']);
   api.add_files(['namespace_client.js'], 'client');
+  api.add_files(['namespace_server.js'], 'server');
   api.export([
     'json_control',
     'DATA',
@@ -19,6 +20,7 @@ Package.on_use(function (api, where) {
     'LDATA',
     "ses",
     'sesp',
+    'key_obj',
     'subscription',
     'Mu'
   ]);
