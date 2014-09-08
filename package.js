@@ -20,6 +20,7 @@ Package.on_use(function (api, where) {
     'LDATA',
     "ses",
     'sesp',
+    'img_p',
     'key_obj',
     'subscription',
     'Mu'
